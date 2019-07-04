@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Barriecito|Just+Another+Hand|Mountains+of+Christmas|Noto+Sans+TC&display=swap');
+
+body, h1, p, footer, header {
+  margin: 1em;
+  padding: .5em;
+}
+
+span {
+  padding: .22em;
+}
+
+p {
+  font-family: 'Noto Sans TC', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: #0c333d;
+  color: ivory;
+  line-height: 2em;
+  font-size: 1.5em;
+  font-family: 'Barriecito', cursive, arial;
+}
+
+main {
+  margin: 1.5em 1em;
+
+  ul {
+      list-style-type: none;
+
+      li {
+          background: rgb(232, 243, 250);
+          line-height: 1.6em;
+          margin: .5em;
+          padding: .5em;
+
+          span.status {
+            color:navy;
+            font-weight: bolder;
+          }
+          span.status:hover {
+            color: #063817;
+            font-weight: bolder;
+          }
+
+          details {
+              summary {
+                display:flex;
+                flex-direction:row;
+                justify-content: space-between;
+              }
+              section {
+                background: #cbecf5;
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    // padding:.3em .5em;
+                    margin: .5em;
+
+                    &:hover {
+                      background: #fff;
+                    }
+                  }
+              }
+          }
+      }
+  }
+
+}
+
+footer {
+  background: #ccc;
+  line-height: 5em;
+  font-family: 'Just Another Hand', cursive, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}

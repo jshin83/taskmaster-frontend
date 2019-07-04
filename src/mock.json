@@ -1,0 +1,51 @@
+[
+  {
+      "id": "86a08512-12f3-4c4d-ab3a-e781a79e6dcc",
+      "title": "wednesday test",
+      "description": "testing thing",
+      "status": "available",
+      "assignee": null
+  },
+  {
+      "id": "4cce7f75-5ea8-457a-8066-c32568229d8c",
+      "title": "hello world",
+      "description": "20",
+      "status": "assigned",
+      "assignee": "dana"
+  },
+  {
+      "id": "d140b4e4-ad56-4d90-b5dc-0049e6a1b741",
+      "title": "test assignee",
+      "description": "postman",
+      "status": "finished",
+      "assignee": "jen"
+  },
+  {
+      "id": "dd333a40-bad3-4b21-911d-8ff93cab5a25",
+      "title": "woooooo",
+      "description": "assignee and status assigned, should be accepted",
+      "status": "accepted",
+      "assignee": "doug"
+  },
+  {
+      "id": "0e1afb4b-b4dc-42ed-bb78-300b987a69d3",
+      "title": "test request body assignee",
+      "description": "for real: assignee will be null, status should be available",
+      "status": "available",
+      "assignee": null
+  },
+  {
+      "id": "df1adef3-aee3-4289-9e4b-ff6d8ec35a48",
+      "title": "test request body assignee",
+      "description": "assignee will be null, status should be available",
+      "status": "assigned",
+      "assignee": "jorie"
+  },
+  {
+      "id": "83b637b5-95c5-4b01-ad06-4e1cd61a5b68",
+      "title": "Wash floors",
+      "description": "Wash it well. Use soap.",
+      "status": null,
+      "assignee": "Jen"
+  }
+]
