@@ -47,7 +47,7 @@ function Tasks() {
           <details>
             <summary>
               <span>{task.title}</span>
-              <span className="status" id={task.id} onClick={_toggleStatus}>{task.status}</span>
+              <span className="status" id={task.id} onClick={_toggleStatus} >{task.status}</span>
 
             </summary>
             <Description task={task} />
