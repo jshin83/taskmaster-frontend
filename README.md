@@ -3,7 +3,7 @@ This calls my RestController, located at repo [TaskMaster](https://github.com/js
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Deployment
-[go to site](https://master.d28dmoywzuui4y.amplifyapp.com/)
+[go to site](https://master.d2qq4uwperetqm.amplifyapp.com/)
 
 ## What is this
 
