@@ -47,6 +47,13 @@ function Tasks() {
           <details>
             <summary>
               <span>{task.title}</span>
+              <form action={`${API}/${task.id}/images`} method="post" encType="multipart/form-data">
+                <label>
+                <span>Upload Image</span>
+                <input name="file" type="file" />
+                </label>
+                <button>Save</button>
+              </form>
               <span className="status" id={task.id} onClick={_toggleStatus} >{task.status}</span>
 
             </summary>
