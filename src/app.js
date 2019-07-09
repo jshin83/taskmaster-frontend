@@ -75,6 +75,7 @@ function Description(props) {
         <div key={task.id}>
           <span>{task.description}</span>
           <span>Assignee: {task.assignee}</span>
+          {task.url? <img src={task.url} alt="task" />: <p>There is no image associated with this task.</p>}
         </div>
     </section>
   )
