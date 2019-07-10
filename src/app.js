@@ -46,6 +46,7 @@ function Tasks() {
         <li key={task.id}>
           <details>
             <summary>
+            {task.url && <img src={task.thumbnail} alt="task thumbnail" /> }
               <span>{task.title}</span>
               <form action={`${API}/${task.id}/images`} method="post" encType="multipart/form-data">
                 <label>
